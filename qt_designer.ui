@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1322</width>
+    <height>874</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1322</width>
+    <height>874</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1322</width>
+    <height>874</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="MplWidget" name="MplWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>60</y>
+     <width>1001</width>
+     <height>811</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>242</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>242</width>
+     <height>23</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>242</width>
+     <height>23</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_add">
+   <property name="geometry">
+    <rect>
+     <x>267</x>
+     <y>59</y>
+     <width>25</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../icons/plus.png</normaloff>../../icons/plus.png</iconset>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>271</width>
+     <height>721</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>271</width>
+     <height>361</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>271</width>
+     <height>10000</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_plot">
+   <property name="geometry">
+    <rect>
+     <x>109</x>
+     <y>830</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>93</width>
+     <height>28</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>93</width>
+     <height>28</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Построить</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MplWidget</class>
+   <extends>QWidget</extends>
+   <header>mplwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
